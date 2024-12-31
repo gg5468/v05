@@ -23,6 +23,13 @@ namespace vsite::oop::v5
         int year();
     };
 
+    class tire {
+        double d;
+    public:
+        tire(double val) : d(val) {};
+        double diameter();
+    };
+
     class car : public product, public vehicle {
         tire t;
     public:
@@ -31,10 +38,5 @@ namespace vsite::oop::v5
         double tire_diameter();
     };
 
-    class tire {
-        double d;
-    public:
-        tire(double val) : d(val) {};
-        double diameter();
-    };
+
 }

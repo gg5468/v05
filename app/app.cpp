@@ -16,11 +16,11 @@ namespace vsite::oop::v5
     }
 
     int vehicle::year() {
-        return yr;
+        return y;
     }
 
     double product::price() {
-        return pr;
+        return p;
     }
 
     double car::tire_diameter() {
